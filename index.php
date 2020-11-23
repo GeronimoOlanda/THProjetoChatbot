@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treino Hard Academias - Chatbot</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg"  href="icon/icon.svg">
 </head>
 
 <body>
     <div class="container">
         <div class="chatbox">
             <div class="header">
-                <h4>Treino Hard Academias - Chatbot</h4>
+                <h4 style="text-align: center;">Treino Hard Academias - Chatbot</h4>
                 <br>
-                <p>Faça perguntas como: linux; php; dns; etc.</p>
+                <p style="text-align: center;">Faça a sua Pergunta Abaixo ou Escolha uma das opções!</p>
             </div>
 
             <div class="body" id="chatbody">
