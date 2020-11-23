@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -22,7 +22,7 @@
 
             <form class="chat" method="post" autocomplete="off">
                 <div>
-                    <input type="text" name="chat" id="chat" placeholder="Mensagem...">
+                    <input type="text" name="chat" id="chat" placeholder="Digite sua mensagem aqui...">
                 </div>
                 <div>
                     <input type="submit" value="Enviar" id="btn">
