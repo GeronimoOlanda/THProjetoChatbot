@@ -38,7 +38,7 @@
         divCpu = document.createElement("div");
         chatBody = document.querySelector(".scroller");
         divCpu.className = "bot visible";
-        divCpu.innerHTML = "Bom dia, selecione as opções:<br><br>1 - Pedido<br>2 - Consultar Pedido";
+        divCpu.innerHTML = "Bom dia!<br><br>Digite o nome de algumas das opções abaixo:<br><br>1 - Academia<br>2 - Treinos<br>3 - Mensalidades<br>4 - planos";
         chatBody.append(divCpu);
     </script>
 

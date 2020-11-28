@@ -45,14 +45,14 @@ if (isset($_GET['msg'])) {
                 $tmp = "Infelizmente não entregamos neste endereço.";
                 $tmp .= "Nossa raio de entrega é de até 30Km e você está a " . $distancia . ' km';
             } else {
-                $tmp .= 'Que legal, você está a ' . $distancia . ' km.<br>Sua entrega chegará em ';
+                $tmp .= 'Que legal, você está a ' . $distancia . ' km.<br>A unidade mais proxima de voce é ';
                 $tmp .= 'aproximadamente <strong>';
                 $tmp .= round((($distancia * 1.61) / 50) * 60 + 15) . '</strong> minutos';
             }
             $botty->reply($tmp);
             die();
         }
-
+        
         # cotação de moedas
         $moedas = [
             'dolar' => 'USD-BRL',
@@ -75,7 +75,7 @@ if (isset($_GET['msg'])) {
         if (in_array($msg, $generics)) {
             $botty->reply('Olá. Em que posso ajudar?');
         } elseif ($botty->ask($msg, $questions) == "") {
-            $botty->reply("Desculpe, não entendi.");
+            $botty->reply("Desculpe, não entendi, digite o nome de uma das opções.");
         } else {
             $botty->reply($botty->ask($msg, $questions));
         }
