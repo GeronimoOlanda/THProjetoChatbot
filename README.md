@@ -16,4 +16,7 @@
 * dentro do arquivo json, existe perguntas e respostas padroes como modelo de inserção, no primeiro ""Digite a pergunta, e no segundo "" Resposta.
 * Testar as funcionalidades.
 * Pronto para o uso.
+
+#### LINK PARA ACESSAR O SITE NO AR
+* http://proj9.atwebpages.com/
  
